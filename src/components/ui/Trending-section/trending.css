@@ -1,0 +1,29 @@
+.trending{
+    width: 80%;
+    margin: auto;
+}
+
+.trending-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trending_title{
+    color: #fff;
+    font-size: 25px;
+}
+
+@media(max-width:768px){
+    .trending{
+        width: 90%;
+    }
+}
+
+@media(max-width:576px){
+    .trending-cards{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,49 @@
+.step{
+    width: 80%;
+    margin: auto;
+}
+
+.single_step{
+    background: #404064;
+    box-shadow: 5px 10px 15px #5142fc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.step_item h5{
+    color: #fff;
+    font-size: 23px;
+}
+
+.step_item p{
+    width: 250px;
+}
+
+.step_title{
+    color: #fff;
+    font-size: 25px;
+}
+
+.single_step span{
+    color: #fff;
+    padding: 20px;
+    font-size: 22px;
+    background: #5142fc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 63px;
+}
+
+.step_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+@media(max-width:768px){
+    .step{
+        width: 90%;
+    }
+}

@@ -1,0 +1,52 @@
+.common{
+    background: url('../../../assets/images/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.common h2{
+    text-align: center;
+}
+
+.filter{
+    margin: auto;
+    width: 80%;
+}
+
+.market_product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market_product .filter_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+@media(max-width:768px){
+    .filter{
+        width: 90%;
+    }
+
+    .cards{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:576px){
+    .cards{
+        justify-content: center;
+    }
+}

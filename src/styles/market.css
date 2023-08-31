@@ -1,0 +1,10 @@
+.all_category select,.all_items select{
+    padding: 8px 25px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #404064;
+    border-radius: 5px;
+} 

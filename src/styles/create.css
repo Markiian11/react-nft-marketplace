@@ -1,0 +1,53 @@
+.starting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.create .preview{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form_input input, .textarea{
+    width: 100%;
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid rgba(221,221,221,0.171);
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form_input{
+    margin-bottom: 15px;
+}
+
+.form_input label{ 
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+
+@media(max-width:768px){
+    .create{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+}

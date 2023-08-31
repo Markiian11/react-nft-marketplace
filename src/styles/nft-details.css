@@ -1,0 +1,84 @@
+.single_nft{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.single_nft-img{
+    width: 700px;
+    border-radius: 8px;
+}
+
+.nft_creator{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #343444; 
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.creator_img{
+    width: 40px;
+    height: 40px;
+}
+
+.creator_detail p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.creator_detail h6{
+    color:#fff;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.place_bid-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 25px;
+    background: #5142fc;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.place_bid-btn:hover{
+    background: #e250e5;
+}
+
+
+.single_title .desc{
+    margin: 16px 0;
+}
+
+@media(max-width:1440px){
+    .single_nft-img{
+        width: 450px;
+    }
+}
+
+@media(max-width:992px){
+    .single_nft-img{
+        width: 100%;
+    }
+
+    .single_nft{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width:768px){
+    .single_nft{
+        width: 90%;
+    }
+}

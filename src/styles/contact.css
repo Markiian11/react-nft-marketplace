@@ -1,0 +1,43 @@
+.contact{
+    margin: auto;
+    width: 80%;
+}
+
+.contact h2, .contact_text{
+    text-align: center;
+}
+
+.contact_form{ 
+    width: 45%;
+    margin: auto;
+}
+
+.send_btn{
+    padding: 8px 25px;
+    background: #5142fc;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.send_btn:hover{
+    background: #e250e5;
+}
+
+@media(max-width:992px){
+    .contact_form{
+        width: 80%;
+    }
+}
+
+
+@media(max-width:576px){
+    .contact_text{
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
